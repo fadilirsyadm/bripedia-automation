@@ -80,7 +80,6 @@ def auto_download_two_files(zip_bytes: bytes, zip_name: str, hist_bytes: bytes, 
 st.title("📘 BRIPEDIA Report Generator")
 st.caption(
     "Upload 4 file sumber, atur konfigurasi report, pilih Regional Office, lalu proses. "
-    "Blok komentar `# # REQUEST ...` dari notebook tidak diterapkan."
 )
 
 st.subheader("1. Unggah data")
