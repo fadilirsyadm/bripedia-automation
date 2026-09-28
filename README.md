@@ -1,7 +1,5 @@
 # BRIPEDIA Report Generator — Streamlit
 
-Versi Streamlit dari notebook `code(1).ipynb`.
-
 ## Flow user
 
 1. Upload `data_uker.xlsx`
@@ -17,8 +15,6 @@ Versi Streamlit dari notebook `code(1).ipynb`.
    - 1 ZIP berisi report Excel utama + chart PNG
    - 1 Excel `output_historis`
 
-> Blok komentar `# # REQUEST ...` pada Data Preparation notebook sengaja tidak diterapkan.
-
 ## Struktur input
 
 - **data_uker**: harus punya sheet `Data Uker`; dibaca dengan `header=1` seperti notebook.
@@ -32,17 +28,6 @@ Versi Streamlit dari notebook `code(1).ipynb`.
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Deploy ke Streamlit Community Cloud
-
-1. Buat repository GitHub.
-2. Upload `app.py`, `core.py`, `requirements.txt`, dan folder `.streamlit/`.
-3. Buka Streamlit Community Cloud dan pilih **Create app**.
-4. Pilih repository dan branch.
-5. Main file path: `app.py`.
-6. Deploy.
-
-Aplikasi tidak memerlukan Google Drive atau `google.colab.files.download()`.
 
 ## Catatan download otomatis
 
